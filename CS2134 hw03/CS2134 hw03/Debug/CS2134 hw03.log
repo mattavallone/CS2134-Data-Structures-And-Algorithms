@@ -1,0 +1,14 @@
+﻿Build started 2/16/2016 1:37:36 PM.
+     1>Project "C:\Users\matta_000\documents\visual studio 2015\Projects\CS2134 hw03\CS2134 hw03\CS2134 hw03.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt hw03A.cpp
+         hw03A.cpp
+     1>c:\users\matta_000\documents\visual studio 2015\projects\cs2134 hw03\cs2134 hw03\hw03a.cpp(216): error C2955: 'check': use of class template requires template argument list
+         c:\users\matta_000\documents\visual studio 2015\projects\cs2134 hw03\cs2134 hw03\hw03a.cpp(179): note: see declaration of 'check'
+     1>c:\users\matta_000\documents\visual studio 2015\projects\cs2134 hw03\cs2134 hw03\hw03a.cpp(216): error C2780: 'void print_if(Itr,Itr,UnaryPred)': expects 3 arguments - 2 provided
+         c:\users\matta_000\documents\visual studio 2015\projects\cs2134 hw03\cs2134 hw03\hw03a.cpp(187): note: see declaration of 'print_if'
+     1>Done Building Project "C:\Users\matta_000\documents\visual studio 2015\Projects\CS2134 hw03\CS2134 hw03\CS2134 hw03.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42

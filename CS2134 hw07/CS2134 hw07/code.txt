@@ -1,0 +1,11 @@
+public:
+    Tokenizer( istream & input )
+    : currentLine( 1 ), errors( 0 ), inputStream( input ) { }
+    
+	[]
+    // The public routines
+    char getNextOpenClose( );
+    string getNextID( );
+    int getLineNumber( ) const;
+    int getErrorCount( ) const;
+    {
